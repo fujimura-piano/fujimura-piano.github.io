@@ -6,6 +6,10 @@ main {
   background-color: #f5ecf4;
 }
 
+header {
+  background-color: lightpink;
+}
+
 h1 {
   color: #ff00ff;
 }
