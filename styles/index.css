@@ -2,6 +2,10 @@
   background-color: #ffdbed;
 }
 
-section.container {
+main {
   background-color: #f5ecf4;
+}
+
+h1 {
+  color: #ff00ff;
 }
