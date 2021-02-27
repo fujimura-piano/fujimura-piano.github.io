@@ -1,15 +1,30 @@
+body {
+  background-color: floralwhite;
+}
+
 #main-nav {
   background-color: #ffdbed;
 }
 
-main {
-  background-color: #f5ecf4;
+#main {
+  border: solid 1em lavenderblush;
+  background-color: lavenderblush;
 }
 
-header#header {
-  background-color: lightpink;
+#header {
+  background-color: mistyrose;
 }
 
 h1 {
   color: #ff00ff;
+}
+
+.nav-item {
+  padding: 0.25em;
+  text-align: center;
+}
+
+.nav-item.active {
+  border-radius: 1em;
+  background-color: rgba(255, 255, 255, 0.5);
 }
