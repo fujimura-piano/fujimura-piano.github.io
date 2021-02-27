@@ -19,6 +19,21 @@ h1 {
   color: #ff00ff;
 }
 
+h3 {
+  color: #ff00ff;
+  border-bottom: solid 1px #ffcbef;
+}
+h3:before {
+  content: "";
+  display: inline-block;
+  margin-bottom: 0.125em;
+  margin-right: 0.25em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 100%;
+  background-color: #ffcbef;
+}
+
 .nav-item {
   padding: 0.25em;
   text-align: center;
@@ -27,4 +42,9 @@ h1 {
 .nav-item.active {
   border-radius: 1em;
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+.greeting {
+  font-size: 1.25rem;
+  color: tan;
 }
