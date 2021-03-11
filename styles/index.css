@@ -9,6 +9,16 @@ body {
 #main {
   border: solid 1em lavenderblush;
   background-color: lavenderblush;
+  font-size: 14pt;
+  line-height: 180%;
+}
+
+#contents p {
+  margin-bottom: 2em;
+}
+
+.card {
+  margin: 0.5rem;
 }
 
 #header {
@@ -22,6 +32,7 @@ h1 {
 h3 {
   color: #ff00ff;
   border-bottom: solid 1px #ffcbef;
+  margin-top: 1em;
 }
 h3:before {
   content: "";
